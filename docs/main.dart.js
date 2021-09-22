@@ -8758,7 +8758,7 @@ d9(){var s=t.s,r=t.N
 if(this.y>0)J.iM(this.gaR(),P.fT(H.r(["roms-drag-in"],s),r))
 else J.iM(this.gaR(),P.fT(H.r(["roms-drag-out"],s),r))},
 fc(){var s=M.bC("rom")
-W.km("/"+(s!=null&&s.length>0?"roms/"+H.y(s)+".json":"roms/SuperMario3.json")).cs(new M.ha(this),t.P)},
+W.km("./"+(s!=null&&s.length>0?"roms/"+H.y(s)+".json":"roms/SuperMario3.json")).cs(new M.ha(this),t.P)},
 d_(a){var s,r=document,q=r.querySelector("#name")
 q.toString
 s=a.name

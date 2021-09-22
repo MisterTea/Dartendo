@@ -1,7 +1,7 @@
 part of dartendo;
 
 class FileLoader {
-  static String get home => '';
+  static String get home => '.';
   //'.'; //window.location.protocol + '//' + window.location.host;
 
   static Future<List<int>> loadFile(String fileName) {
