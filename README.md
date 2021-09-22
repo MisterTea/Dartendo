@@ -1,2 +1,1 @@
-# Dartendo
-Open source NES emulator written in Dart
+An absolute bare-bones web app.

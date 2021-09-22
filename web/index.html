@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
+    <title>dartendo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="fps" id="fps_counter">
+    </div>
+      <h1 id="heading">Loading...</h1>
+      <h5>Up: <span style="color:blue;">w</span> Left: <span style="color:blue;">a</span> Down: <span style="color:blue;">s</span> Right: <span style="color:blue;">d</span> A: <span style="color:blue;">k</span> B: <span style="color:blue;">j</span> Select: <span style="color:blue;">m</span> Start: <span style="color:blue;">Enter</span></h5>
+      <img id="tv" src="tv.png"></img>
+      <canvas id="webGlCanvas" width="256" height="240"></canvas>
+    </div>
+
+    
+    <div id="menu">
+      <div id="roms-label">
+        roms
+      </div>
+      <div id="roms-content" class="roms-drag-out">
+        <div id="roms-content-left">
+        <p>
+          Select a ROM or drag one into this area<br>
+          <input type="file" id="input-file" />
+        </p>
+        <p>
+          Current ROM: <span id="name"></span><br>
+          File Size: <span id="size"></span><br>
+        </p>
+        </div>
+        <div id="roms-content-right">
+          This area is reserved for a list of ROMs stored in the HTML5 IndexedDB.
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
