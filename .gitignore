@@ -1,3 +1,7 @@
+# Allow everything in build directory
+!/docs/*
+!/docs
+
 # Files and directories created by pub.
 .dart_tool/
 .packages
